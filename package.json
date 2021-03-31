@@ -1,6 +1,7 @@
 {
-  "name": "smartscan",
+  "name": "smartscan.ai",
   "version": "0.1.0",
+  "description": "A Next.js with TailwindCSS project",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -8,8 +9,13 @@
     "start": "next start"
   },
   "dependencies": {
+    "autoprefixer": "^10.2.5",
+    "heroicons-react": "^1.3.0",
     "next": "10.0.9",
+    "postcss": "^8.2.8",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "source-map": "^0.7.3",
+    "tailwindcss": "^2.0.4"
   }
 }
