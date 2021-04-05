@@ -41,7 +41,7 @@ export default function LeftNav({ open, setOpen }) {
                            path === page.href && "opacity-100"
                         } `}
                      >
-                        <div className="icon ">{page.icon}</div>
+                        <div className="icon w-6">{page.icon}</div>
                         <p className="ml-2 md:hidden lg:block">{page.name}</p>
                      </a>
                   </Link>
